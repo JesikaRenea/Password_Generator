@@ -9,9 +9,9 @@ Once the user has selected all the critera, a random password will be generated 
 
 This activity was created using a responsive HTML and CSS File powered by JS in Visual Studio Code
 
+-----
 
 ### See documentation:
-- - - - -
 
 <a href = "https://github.com/JesikaRenea/Password_Generator">Password Generator: Github Repo</a>
 <br>
