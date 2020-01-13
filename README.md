@@ -14,4 +14,5 @@ This activity was created using a responsive HTML and CSS File powered by JS in 
 - - - - -
 
 <a href = "https://github.com/JesikaRenea/Password_Generator">Password Generator: Github Repo</a>
+<br>
 <a href = "https://jesikarenea.github.io/Password_Generator/">Password Generator: Github Live Page</a>

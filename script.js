@@ -31,7 +31,11 @@ function generatePassword(){
   console.log (upperCase)
 
 
+
+
+
   return "--password--"
+  //needs to display new variable defined by generate password function
 
 
 }
