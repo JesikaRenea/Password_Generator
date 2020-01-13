@@ -13,6 +13,29 @@ function writePassword() {
   copyBtn.focus();
 }
 
+function generatePassword(){
+
+  var length = prompt("How long do you want your password to be? (Between 8-20 characters")
+  console.log (length)
+
+  var specChar = confirm("Do you want to include a special character")
+  console.log (specChar)
+
+  var numChar = confirm("Do you want to include a numeric character?")
+  console.log (numChar)
+
+  var lowerCase = confirm("Do you want to include a lowercase character?")
+  console.log (lowerCase)
+
+  var upperCase = confirm("Do you want to include an uppercase character?")
+  console.log (upperCase)
+
+
+  return "--password--"
+
+
+}
+
 function copyToClipboard() {
   // BONUS 
 }
