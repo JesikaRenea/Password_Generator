@@ -13,30 +13,39 @@ function writePassword() {
   copyBtn.focus();
 }
 
+
 function generatePassword(){
 
   var length = prompt("How long do you want your password to be? (Between 8-20 characters")
-  console.log (length)
+  console.log (length);
 
-  var specChar = confirm("Do you want to include a special character")
-  console.log (specChar)
+  var comfirmSpecial = confirm("Do you want to include a special character")
+  console.log (comfirmSpecial)
 
-  var numChar = confirm("Do you want to include a numeric character?")
-  console.log (numChar)
+  var confirmNum = confirm("Do you want to include a numeric character?")
+  console.log (confirmNum);
 
-  var lowerCase = confirm("Do you want to include a lowercase character?")
-  console.log (lowerCase)
+  var confirmLower = confirm("Do you want to include a lowercase character?")
+  console.log (confirmLower);
 
-  var upperCase = confirm("Do you want to include an uppercase character?")
-  console.log (upperCase)
+  var confirmUpper = confirm("Do you want to include an uppercase character?")
+  console.log (confirmUpper);
+  
+  var symbol = '!@#$%^&*()'
+  var number = '0123456789'
+  var lowerChar = 'abcdefghijklmnopqrstuvwxyz'
+  var upperChar = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
+
+  var characters = [symbol, number, lowerChar, upperChar]
+  console.log (characters)
+  
+  for (var i = 0; i < length; i++){
+    pwd = characters.charAt(Math.floor(Math.random() * characters.length))}
+  
 
 
-
-
-
-  return "--password--"
+   return "--pwd--"
   //needs to display new variable defined by generate password function
-
 
 }
 
