@@ -17,17 +17,16 @@ function writePassword() {
 function generatePassword(){
   var characters =[]
 
-
-  var symbol = '!@#$%^&*()'.split('')
+  var symbol = '!@#$%^&*()'
   console.log(symbol)
 
-  var number = '0123456789'.split('')
+  var number = '0123456789'
   console.log(number)
 
-  var lowerChar = 'abcdefghijklmnopqrstuvwxyz'.split('')
+  var lowerChar = 'abcdefghijklmnopqrstuvwxyz'
   console.log(lowerChar)
 
-  var upperChar = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('')
+  var upperChar = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
   console.log(upperChar)
 
   var length = prompt("How long do you want your password to be? (Between 8-20 characters")
@@ -60,17 +59,18 @@ console.log(characters)
     alert("Password must contain at least 1 special character");
     return;
   }
-  
+  var possibleCharactersString = characters.join('');
+    console.log(possibleCharactersString);
 
-  for( i = 0; i < length; i++){
-    var pwd = characters.charAt(Math.floor(Math.random() * length));
+  var newPassword = '';
 
-
+  for(var i = 0; i < length; i++){
+    var randomIndex = (Math.floor(Math.random() * possibleCharactersString.length));
+    newPassword += possibleCharactersString.charAt(randomIndex);
   }
+    console.log(newPassword)
 
-console.log(pwd)
-
-   return pwd
+   return newPassword
 
   //needs to display new variable defined by generate password function
 
