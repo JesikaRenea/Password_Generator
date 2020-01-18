@@ -16,3 +16,14 @@ This activity was created using a responsive HTML and CSS File powered by JS in 
 <a href = "https://github.com/JesikaRenea/Password_Generator">Password Generator: Github Repo</a>
 <br>
 <a href = "https://jesikarenea.github.io/Password_Generator/">Password Generator: Github Live Page</a>
+
+-----
+
+### Screenshots of Working Function:
+
+![Initial](/Screen1.png)
+![Length Prompt](/Screen2.png)
+![Random Character Prompts](/Screen3.png)
+![Random Character Prompts](/Screen4.png)
+![Returned Password Generation](/Screen5.png)
+
